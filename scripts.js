@@ -20,14 +20,14 @@ const certificates = [
     desc: 'Certificate for completing an introductory course in cyber security, focusing on foundational concepts.'
   },
   {
-    file: 'React + Redux.jpg',
-    title: 'React + Redux',
-    desc: 'Certificate for mastering React and Redux, building modern web applications with state management.'
-  },
-  {
     file: 'Responsive Web Design.jpg',
     title: 'Responsive Web Design',
     desc: 'Certificate for completing Responsive Web Design, learning to build mobile-friendly and adaptive websites.'
+  },
+  {
+    file: 'React + Redux.jpg',
+    title: 'React + Redux',
+    desc: 'Certificate for mastering React and Redux, building modern web applications with state management.'
   },
   {
     file: 'jQuery.jpg',
@@ -43,6 +43,16 @@ const certificates = [
     file: 'Python For Beginners.png',
     title: 'Python For Beginners',
     desc: 'Certificate for completing a beginner course in Python programming.'
+  },
+  {
+    file: 'IntroIoT.PNG',
+    title: 'Introduction to IoT and Digital Transformation',
+    desc: 'Cisco Networking Academy certificate for IoT and Digital Transformation.'
+  },
+  {
+    file: 'IntroModernAI.PNG',
+    title: 'Introduction to Modern AI',
+    desc: 'Cisco Networking Academy certificate for Modern AI.'
   }
 ];
 
@@ -73,6 +83,9 @@ certificates.forEach(cert => {
 
   card.appendChild(img);
   card.appendChild(info);
+
+  // Attach the click event here!
+  card.onclick = () => openModal(cert);
 
   container.appendChild(card);
 });
@@ -105,9 +118,4 @@ document.addEventListener('keydown', function(e) {
   if (modal.style.display === 'block' && (e.key === 'Escape' || e.key === 'Esc')) {
     closeModal();
   }
-});
-
-// Add click event to each card
-container.querySelectorAll('.certificate-card').forEach((card, i) => {
-  card.onclick = () => openModal(certificates[i]);
 }); 
