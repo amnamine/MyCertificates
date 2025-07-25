@@ -20,7 +20,7 @@ const certificates = [
     desc: 'Certificate for completing an introductory course in cyber security, focusing on foundational concepts.'
   },
   {
-    file: 'Responsive Web Design.jpg',
+    file: 'RespWebDes.jpg',
     title: 'Responsive Web Design',
     desc: 'Certificate for completing Responsive Web Design, learning to build mobile-friendly and adaptive websites.'
   },
