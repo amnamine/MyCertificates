@@ -53,6 +53,11 @@ const certificates = [
     file: 'IntroModernAI.PNG',
     title: 'Introduction to Modern AI',
     desc: 'Cisco Networking Academy certificate for Modern AI.'
+  },
+  {
+    file: 'IntroDataScience.PNG',
+    title: 'Introduction to Data Science',
+    desc: 'Cisco Networking Academy certificate for Data Science.'
   }
 ];
 
