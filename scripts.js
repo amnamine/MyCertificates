@@ -58,6 +58,11 @@ const certificates = [
     file: 'IntroDataScience.PNG',
     title: 'Introduction to Data Science',
     desc: 'Cisco Networking Academy certificate for Data Science.'
+  },
+  {
+    file: 'Team02.jpg',
+    title: 'Certificate of Participation - MINI STARTUP CSCC',
+    desc: 'Awarded for participating in MINI STARTUP CSCC event, February 21-24, 2022.'
   }
 ];
 
