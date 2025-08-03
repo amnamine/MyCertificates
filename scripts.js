@@ -63,6 +63,11 @@ const certificates = [
     file: 'Team02.jpg',
     title: 'Certificate of Participation - MINI STARTUP CSCC',
     desc: 'Awarded for participating in MINI STARTUP CSCC event, February 21-24, 2022.'
+  },
+  {
+    file: 'EthicalHacker.PNG',
+    title: 'Ethical Hacker',
+    desc: 'Cisco Networking Academy certificate for Ethical Hacking.'
   }
 ];
 
